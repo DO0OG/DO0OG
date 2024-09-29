@@ -33,7 +33,7 @@ mad_doggo@dogdev.buzz
 - Advanced C# and .NET framework
 - AI and Machine Learning with Python
 - Game Development with Unity (Advanced techniques)
-- Database optimization and performance tuning (MySQL)
+- Database (MySQL)
 - Web Development fundamentals (HTML, CSS)
 - Software architecture and design patterns
 
