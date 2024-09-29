@@ -7,7 +7,6 @@
 ### Contact
 +82)010-2855-2569  
 mad_doggo@dogdev.buzz
-mad_d0gg0 (Discord)
 
 ### Link
 [![Blog](https://img.shields.io/badge/Blog-20c997?style=for-the-badge&logo=Velog&logoColor=white)](https://dogdev.buzz)
