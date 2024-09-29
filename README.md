@@ -37,6 +37,14 @@ mad_doggo@dogdev.buzz
 - Web Development fundamentals (HTML, CSS)
 - Software architecture and design patterns
 
+### GitHub Stats
+
+![DO0OG's GitHub stats](https://github-readme-stats.vercel.app/api?username=DO0OG&show_icons=true&theme=radical)
+
+### Most Used Languages
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DO0OG&layout=compact&theme=radical)
+
 ---
 
 </div>
