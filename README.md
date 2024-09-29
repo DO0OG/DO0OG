@@ -45,6 +45,8 @@ mad_doggo@dogdev.buzz
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DO0OG&layout=compact&theme=radical&cache_seconds=1800)
 
+Currently, the most commonly used languages are C#, Python, and Java.
+
 ---
 
 </div>
