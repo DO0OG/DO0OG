@@ -43,7 +43,7 @@ mad_doggo@dogdev.buzz
 
 ### Most Used Languages
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DO0OG&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DO0OG&layout=compact&theme=radical&cache_seconds=1800)
 
 ---
 
