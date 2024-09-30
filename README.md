@@ -5,7 +5,6 @@
 ### 안녕하세요. 개발자 안지훈(MAD_DOGGO, DO0OG)입니다.
 
 ### Contact
-+82)010-2855-2569  
 mad_doggo@dogdev.buzz
 
 ### Link
