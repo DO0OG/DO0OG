@@ -5,7 +5,7 @@
 ### 안녕하세요. 개발자 안지훈(MAD_DOGGO, DO0OG)입니다.
 
 ### Contact
-mad_doggo@dogdev.buzz
+laleme@naver.com
 
 ### Link
 [![Blog](https://img.shields.io/badge/Blog-20c997?style=for-the-badge&logo=Velog&logoColor=white)](https://dogdev.buzz)
