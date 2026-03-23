@@ -2,13 +2,10 @@
 
 # 🐶 Intro
 
-### 안녕하세요. 개발자 안지훈(MAD_DOGGO, DO0OG)입니다.
+### 안녕하세요. 개발자 안지훈입니다.
 
 ### Contact
 laleme@naver.com
-
-### Link
-[![Blog](https://img.shields.io/badge/Blog-20c997?style=for-the-badge&logo=Velog&logoColor=white)](https://dogdev.buzz)
 
 ### Education
 1) Seowon University (Computer Engineering)
