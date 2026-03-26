@@ -47,7 +47,7 @@
 | [**UNHOLY**](https://github.com/Gongju-Unity-Bootcamp/UNHOLY-Justice) | **Team 3D Souls-Like Game** <br> <sub>Dark fantasy action RPG</sub> | Unity, C# |
 | [**Defer_2D_Retro**](https://github.com/Gongju-Unity-Bootcamp/Defer_2D_Retro) | **Team 2D Retro Game** <br> <sub>Classic pixel art style adventure</sub> | Unity, C# |
 | [**HorrorGame**](https://github.com/DO0OG/HorrorGame) | **Personal Horror Game Project** <br> <sub>Solo game development</sub> | Unity, C# |
-| [**AI-Assistant**](https://github.com/DO0OG/AI-Assistant) | **Voice Command AI Assistant** <br> <sub>Smart voice recognition and processing</sub> | Python |
+| [**Ari-VoiceCommand**](https://github.com/DO0OG/Ari-VoiceCommand) | **Voice Command AI Assistant** <br> <sub>Smart voice recognition and processing</sub> | Python |
 | [**AIChat**](https://github.com/DO0OG/AIChat) | **AI Chat Application** <br> <sub>Interactive AI communication tool</sub> | C# |
 | [**CustomLauncher**](https://github.com/DO0OG/CustomLaucncher) | **Custom Minecraft Launcher** <br> <sub>Dedicated server access tool</sub> | C# |
 
