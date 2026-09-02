@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐶 Hello, I'm Ahn Jihoon!
+# 🐶 Hello, I'm An Jihoon!
 
 ### 🚀 Passionate Developer | Unity & AI Enthusiast
 
