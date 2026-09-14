@@ -1,10 +1,10 @@
 <div align="center">
 
-# AN JIHOON · DO0OG
+<img src="./assets/profile-banner.svg" width="100%" alt="DO0OG profile banner" />
 
-### AI systems · Cross-platform desktop software · Interactive tools
+<br/>
 
-I build practical software around **AI, desktop applications, automation, and interactive systems** — with a focus on turning ideas into tools people can actually use.
+**Building AI-powered desktop software, developer tools, and interactive systems.**
 
 [![GitHub](https://img.shields.io/badge/GitHub-DO0OG-181717?style=flat-square&logo=github)](https://github.com/DO0OG)
 [![Email](https://img.shields.io/badge/Email-laleme%40naver.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:laleme@naver.com)
@@ -13,57 +13,70 @@ I build practical software around **AI, desktop applications, automation, and in
 
 ---
 
-## Featured Projects
+## Selected Work
 
-### 🎙️ [Ari — AI Voice Assistant](https://github.com/DO0OG/Ari-VoiceCommand)
+### [Ari — AI Voice Assistant](https://github.com/DO0OG/Ari-VoiceCommand)
 
-> Open-source **Windows AI voice assistant & autonomous desktop agent** with wake word activation, multilingual STT/TTS, desktop automation, local LLM support, MCP tools, plugins, and installable skills.
+Open-source **Windows AI voice assistant and autonomous desktop agent** built around voice interaction, desktop automation, local AI, and extensibility.
 
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
-![PySide6](https://img.shields.io/badge/UI-PySide6-41CD52?style=flat-square&logo=qt&logoColor=white)
-![MCP](https://img.shields.io/badge/Protocol-MCP-7C3AED?style=flat-square)
-![Ollama](https://img.shields.io/badge/Local_AI-Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-[![Last Commit](https://img.shields.io/github/last-commit/DO0OG/Ari-VoiceCommand?style=flat-square&label=last%20commit)](https://github.com/DO0OG/Ari-VoiceCommand/commits/main)
+`Python` `PySide6` `MCP` `Ollama` `STT/TTS` `Plugin System`
 
-### 🎬 [yttStudio](https://github.com/DO0OG/yttStudio)
+- Wake word, multilingual speech recognition, and natural voice responses
+- Autonomous tool execution and desktop automation with verification
+- Local LLM workflows, MCP tools, plugins, skills, and remote-control integrations
 
-> Cross-platform **WYSIWYG editor for YouTube YTT/SRV3 subtitles**. Edit styled subtitles directly over video, work with timelines and keyframes, preview YouTube media, and export advanced subtitle effects.
+[![Ari last commit](https://img.shields.io/github/last-commit/DO0OG/Ari-VoiceCommand?style=flat-square&label=updated)](https://github.com/DO0OG/Ari-VoiceCommand/commits/main)
+[![Ari stars](https://img.shields.io/github/stars/DO0OG/Ari-VoiceCommand?style=flat-square)](https://github.com/DO0OG/Ari-VoiceCommand/stargazers)
+[![Ari license](https://img.shields.io/github/license/DO0OG/Ari-VoiceCommand?style=flat-square)](https://github.com/DO0OG/Ari-VoiceCommand/blob/main/LICENSE)
 
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-10-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Avalonia](https://img.shields.io/badge/UI-Avalonia-8B44AC?style=flat-square)
-![Platforms](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-333333?style=flat-square)
-[![Last Commit](https://img.shields.io/github/last-commit/DO0OG/yttStudio?style=flat-square&label=last%20commit)](https://github.com/DO0OG/yttStudio/commits/main)
+<br/>
 
-### ⛏️ [CustomLauncher](https://github.com/DO0OG/CustomLaucncher)
+### [yttStudio — YTT/SRV3 Subtitle Editor](https://github.com/DO0OG/yttStudio)
 
-> Cross-platform **Minecraft server launcher** with Microsoft/Xbox authentication, incremental content distribution, account switching, server status integration, configurable appearance, packaging, and automated multi-platform testing.
+Cross-platform **WYSIWYG editor for advanced YouTube subtitles**, designed to edit positioning, styling, timing, effects, and keyframes directly over video.
 
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-8-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Avalonia](https://img.shields.io/badge/UI-Avalonia-8B44AC?style=flat-square)
-![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-[![Last Commit](https://img.shields.io/github/last-commit/DO0OG/CustomLaucncher?style=flat-square&label=last%20commit)](https://github.com/DO0OG/CustomLaucncher/commits/main)
+`C#` `.NET 10` `Avalonia` `libmpv` `Cross-platform`
+
+- Direct-on-video subtitle placement and editing
+- Timeline, multi-keyframe motion, karaoke, visual effects, and format validation
+- Windows, macOS, and Linux releases with automated update support
+
+[![yttStudio last commit](https://img.shields.io/github/last-commit/DO0OG/yttStudio?style=flat-square&label=updated)](https://github.com/DO0OG/yttStudio/commits/main)
+[![yttStudio license](https://img.shields.io/github/license/DO0OG/yttStudio?style=flat-square)](https://github.com/DO0OG/yttStudio/blob/main/LICENSE)
+
+<br/>
+
+### [CustomLauncher — Cross-platform Minecraft Launcher](https://github.com/DO0OG/CustomLaucncher)
+
+A configurable **Minecraft server launcher and distribution client** for Windows, macOS, and Linux.
+
+`C#` `.NET 8` `Avalonia` `Microsoft/Xbox Auth` `GitHub Actions`
+
+- Microsoft account authentication and session management
+- Incremental content delivery with integrity checks, rollback, and mod/resource-pack management
+- Cross-platform packaging and automated build/test workflows
+
+[![CustomLauncher last commit](https://img.shields.io/github/last-commit/DO0OG/CustomLaucncher?style=flat-square&label=updated)](https://github.com/DO0OG/CustomLaucncher/commits/main)
 
 ---
 
-## What I Work With
+## Tech
 
 <div align="center">
 
-**Languages**
+### Core
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-**Application & Game Development**
+### Desktop & Interactive
 
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Avalonia](https://img.shields.io/badge/Avalonia-8B44AC?style=for-the-badge)
 ![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
 
-**Tools & Platforms**
+### Tooling & Systems
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
@@ -76,25 +89,27 @@ I build practical software around **AI, desktop applications, automation, and in
 
 ## Current Focus
 
-- **AI agents & local-first AI** — tool use, desktop automation, MCP, local models, voice interfaces
-- **Cross-platform desktop engineering** — .NET/Avalonia and Python/PySide6 applications
-- **Developer-facing tools** — packaging, update flows, CI, distribution, reliability, and automation
-- **Interactive systems & game development** — Unity, tooling, and game-oriented software
+- **AI agents & local-first AI** — voice interfaces, tool use, MCP, local models, automation
+- **Cross-platform desktop engineering** — maintainable applications with .NET/Avalonia and Python/PySide6
+- **Shipping reliable software** — CI, packaging, update systems, distribution, testing, and recovery flows
+- **Interactive systems** — game development, UI tooling, and user-facing automation
 
 ---
 
 ## Background
 
-- **Computer Engineering** · Seowon University
-- **Unity Bootcamp** · Korea Chamber of Commerce and Industry
+**Computer Engineering** · Seowon University  
+**Unity Bootcamp** · Korea Chamber of Commerce and Industry
 
 ---
 
-## GitHub
+## GitHub Stats
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=DO0OG&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true&count_private=true&rank_icon=github" alt="DO0OG GitHub stats" />
+<a href="https://github.com/stats-organization/github-stats-extended">
+  <img height="180" src="https://github-stats-extended.vercel.app/api?username=DO0OG&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true&rank_icon=github" alt="DO0OG GitHub stats" />
+</a>
 
 </div>
 
@@ -102,6 +117,6 @@ I build practical software around **AI, desktop applications, automation, and in
 
 <div align="center">
 
-**Building things, breaking assumptions, and shipping the useful parts.**
+<sub>Build useful things. Make them reliable. Keep improving them.</sub>
 
 </div>
