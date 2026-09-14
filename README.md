@@ -1,80 +1,107 @@
 <div align="center">
 
-# 🐶 Hello, I'm An Jihoon!
+# AN JIHOON · DO0OG
 
-### 🚀 Passionate Developer | Unity & AI Enthusiast
+### AI systems · Cross-platform desktop software · Interactive tools
 
-<br/>
+I build practical software around **AI, desktop applications, automation, and interactive systems** — with a focus on turning ideas into tools people can actually use.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=239120&center=true&vCenter=true&width=435&lines=Game+Developer;AI+%26+Backend+Enthusiast;Always+Learning+%26+Growing)](https://git.io/typing-svg)
+[![GitHub](https://img.shields.io/badge/GitHub-DO0OG-181717?style=flat-square&logo=github)](https://github.com/DO0OG)
+[![Email](https://img.shields.io/badge/Email-laleme%40naver.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:laleme@naver.com)
 
-<br/>
-
-**Email** : [laleme@naver.com](mailto:laleme@naver.com)
+</div>
 
 ---
 
-### 🎓 Education
+## Featured Projects
 
-🎓 **Seowon University** - *Computer Engineering* <br>
-🎓 **Korea Chamber of Commerce and Industry** - *Unity Bootcamp*
+### 🎙️ [Ari — AI Voice Assistant](https://github.com/DO0OG/Ari-VoiceCommand)
 
-<br/>
+> Open-source **Windows AI voice assistant & autonomous desktop agent** with wake word activation, multilingual STT/TTS, desktop automation, local LLM support, MCP tools, plugins, and installable skills.
 
-### 🛠️ Tech Stack
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
+![PySide6](https://img.shields.io/badge/UI-PySide6-41CD52?style=flat-square&logo=qt&logoColor=white)
+![MCP](https://img.shields.io/badge/Protocol-MCP-7C3AED?style=flat-square)
+![Ollama](https://img.shields.io/badge/Local_AI-Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+[![Last Commit](https://img.shields.io/github/last-commit/DO0OG/Ari-VoiceCommand?style=flat-square&label=last%20commit)](https://github.com/DO0OG/Ari-VoiceCommand/commits/main)
 
-<div align="center">
-  <h4>Languages</h4>
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white">
-  
-  <h4>Game Engine & DB</h4>
-  <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-  
-  <h4>Web (Basic)</h4>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-</div>
+### 🎬 [yttStudio](https://github.com/DO0OG/yttStudio)
 
-<br/>
+> Cross-platform **WYSIWYG editor for YouTube YTT/SRV3 subtitles**. Edit styled subtitles directly over video, work with timelines and keyframes, preview YouTube media, and export advanced subtitle effects.
 
-### 🚀 Projects
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-10-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Avalonia](https://img.shields.io/badge/UI-Avalonia-8B44AC?style=flat-square)
+![Platforms](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-333333?style=flat-square)
+[![Last Commit](https://img.shields.io/github/last-commit/DO0OG/yttStudio?style=flat-square&label=last%20commit)](https://github.com/DO0OG/yttStudio/commits/main)
 
-| 🎮 Project | 📝 Description | 🛠️ Tech Stack |
-|:---:|:---|:---:|
-| [**UNHOLY**](https://github.com/Gongju-Unity-Bootcamp/UNHOLY-Justice) | **Team 3D Souls-Like Game** <br> <sub>Dark fantasy action RPG</sub> | Unity, C# |
-| [**Defer_2D_Retro**](https://github.com/Gongju-Unity-Bootcamp/Defer_2D_Retro) | **Team 2D Retro Game** <br> <sub>Classic pixel art style adventure</sub> | Unity, C# |
-| [**HorrorGame**](https://github.com/DO0OG/HorrorGame) | **Personal Horror Game Project** <br> <sub>Solo game development</sub> | Unity, C# |
-| [**Ari-VoiceCommand**](https://github.com/DO0OG/Ari-VoiceCommand) | **Voice Command AI Assistant** <br> <sub>Smart voice recognition and processing</sub> | Python |
-| [**AIChat**](https://github.com/DO0OG/AIChat) | **AI Chat Application** <br> <sub>Interactive AI communication tool</sub> | C# |
-| [**CustomLauncher**](https://github.com/DO0OG/CustomLaucncher) | **Custom Minecraft Launcher** <br> <sub>Dedicated server access tool</sub> | C# |
+### ⛏️ [CustomLauncher](https://github.com/DO0OG/CustomLaucncher)
 
-<br/>
+> Cross-platform **Minecraft server launcher** with Microsoft/Xbox authentication, incremental content distribution, account switching, server status integration, configurable appearance, packaging, and automated multi-platform testing.
 
-### 🌱 Currently Studying
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-8-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Avalonia](https://img.shields.io/badge/UI-Avalonia-8B44AC?style=flat-square)
+![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+[![Last Commit](https://img.shields.io/github/last-commit/DO0OG/CustomLaucncher?style=flat-square&label=last%20commit)](https://github.com/DO0OG/CustomLaucncher/commits/main)
 
-> *"Continuous learning is the minimum requirement for success in any field."*
+---
 
-- 🎯 **Advanced C# & .NET Framework**
-- 🤖 **AI & Machine Learning with Python**
-- 🎮 **Game Development with Unity** *(Advanced techniques)*
-- 🗄️ **Database Design** *(MySQL)*
-- 🏗️ **Software Architecture & Design Patterns**
-- 🌐 **Web Development Fundamentals**
-
-<br/>
-
-### 📊 GitHub Stats
+## What I Work With
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DO0OG&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DO0OG&layout=compact&theme=radical&cache_seconds=1800"/>
+
+**Languages**
+
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**Application & Game Development**
+
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Avalonia](https://img.shields.io/badge/Avalonia-8B44AC?style=for-the-badge)
+![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+
+**Tools & Platforms**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 </div>
 
-<br/>
+---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=24" />
+## Current Focus
+
+- **AI agents & local-first AI** — tool use, desktop automation, MCP, local models, voice interfaces
+- **Cross-platform desktop engineering** — .NET/Avalonia and Python/PySide6 applications
+- **Developer-facing tools** — packaging, update flows, CI, distribution, reliability, and automation
+- **Interactive systems & game development** — Unity, tooling, and game-oriented software
+
+---
+
+## Background
+
+- **Computer Engineering** · Seowon University
+- **Unity Bootcamp** · Korea Chamber of Commerce and Industry
+
+---
+
+## GitHub
+
+<div align="center">
+
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=DO0OG&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true&count_private=true&rank_icon=github" alt="DO0OG GitHub stats" />
+
+</div>
+
+---
+
+<div align="center">
+
+**Building things, breaking assumptions, and shipping the useful parts.**
 
 </div>
