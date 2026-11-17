@@ -6,9 +6,6 @@
 
 <div align="center">
 
-<img src="./assets/profile-banner.svg" width="100%" alt="DO0OG 개발자 프로필 배너 — AI, 데스크톱 소프트웨어, 개발 도구" />
-
-<br/>
 
 **실제로 사용할 수 있는 데스크톱 애플리케이션과 AI 비서, 개발 도구를 만들고 검증합니다.**
 
