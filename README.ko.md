@@ -17,17 +17,25 @@ C# / .NET · Python · Avalonia · PySide6 · Windows 및 크로스플랫폼 개
 [![GitHub](https://img.shields.io/badge/GitHub-DO0OG-181717?style=flat-square&logo=github)](https://github.com/DO0OG)
 [![이메일](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:laleme@naver.com)
 
-[최근 프로젝트](#최근-프로젝트) · [다른 프로젝트](#다른-프로젝트) · [기술 스택](#기술-스택) · [이력](#이력)
+[Ari](#대표-프로젝트) · [프로젝트](#주요-프로젝트) · [기술 구현](#기술-구현-및-검증) · [기술 스택](#기술-스택) · [연락처](#연락처-및-github-활동)
 
 </div>
 
 ---
 
-## 최근 프로젝트
+## 대표 프로젝트
 
-최근에 개발하거나 업데이트한 공개 프로젝트입니다. Windows 유틸리티, AI 응용 프로그램, 개발 도구를 중심으로 소개합니다.
+Ari는 음성 상호작용과 PC 자동화를 결합한 Windows용 AI 데스크톱 비서로, 현재 가장 중점적으로 소개하는 오픈소스 프로젝트입니다.
 
 ### [Ari — AI 음성 비서 및 자율 데스크톱 에이전트](https://github.com/DO0OG/Ari-VoiceCommand)
+
+<div align="center">
+<a href="https://github.com/DO0OG/Ari-VoiceCommand"><img src="https://raw.githubusercontent.com/DO0OG/Ari-VoiceCommand/main/docs/assets/ari-idle.gif" width="165" alt="Ari 프로젝트의 데스크톱 캐릭터 애니메이션" /></a>
+
+**음성으로 PC와 대화하고 일상적인 작업을 처리하도록 만든 AI 비서입니다.**
+
+<sub>위 이미지는 캐릭터 애니메이션이며, 실제 작업 수행 과정을 촬영한 영상은 아닙니다.</sub>
+</div>
 
 **음성 상호작용, 로컬·원격 언어 모델, Windows 자동화와 도구 기반 작업 처리를 결합한 오픈소스 Windows 음성 비서입니다.**
 
@@ -41,11 +49,21 @@ C# / .NET · Python · Avalonia · PySide6 · Windows 및 크로스플랫폼 개
 [![Ari 릴리스](https://img.shields.io/github/v/release/DO0OG/Ari-VoiceCommand?style=flat-square&label=release)](https://github.com/DO0OG/Ari-VoiceCommand/releases/latest)
 [![Ari 스타](https://img.shields.io/github/stars/DO0OG/Ari-VoiceCommand?style=flat-square)](https://github.com/DO0OG/Ari-VoiceCommand/stargazers)
 
+**기술적 구현:** 음성 입력부터 명령 처리, 다단계 도구 실행, 선택 가능한 언어 모델과 MCP·플러그인 연동까지 연결했습니다. 로컬 모델을 지원하지만, 모든 설정이 완전한 오프라인 동작을 의미하는 것은 아닙니다.
+
+**상세 문서:** [에이전트 작업 흐름](https://github.com/DO0OG/Ari-VoiceCommand/blob/main/docs/AGENT_ADVANCED.md) · [로컬 판단 엔진](https://github.com/DO0OG/Ari-VoiceCommand/blob/main/docs/LOCAL_DECISION_ENGINE.md) · [보안 안내](https://github.com/DO0OG/Ari-VoiceCommand/blob/main/docs/SECURITY.md)
+
 [프로젝트 홈페이지](https://ari-voice-command.vercel.app) · [최신 릴리스 다운로드](https://github.com/DO0OG/Ari-VoiceCommand/releases/latest) · [사용 및 설치 안내](https://github.com/DO0OG/Ari-VoiceCommand#install)
 
 <br/>
 
+## 주요 프로젝트
+
+다른 공개 프로젝트도 해결하려는 문제, 구현 방식, 확인 가능한 자료를 함께 정리했습니다.
+
 ### [AsterCache — HDD 게임 로딩 최적화](https://github.com/DO0OG/AsterCache)
+
+<div align="center"><a href="https://github.com/DO0OG/AsterCache"><img src="https://raw.githubusercontent.com/DO0OG/AsterCache/main/docs/images/main-window.png" width="680" alt="AsterCache 프로그램의 실제 한국어 메인 화면" /></a></div>
 
 **게임 전체를 SSD로 옮기지 않고, HDD에 설치된 게임을 반복 실행할 때 발생하는 디스크 탐색 부담을 줄이기 위해 개발 중인 Windows 11용 실험적 유틸리티입니다.**
 
@@ -54,6 +72,10 @@ C# / .NET · Python · Avalonia · PySide6 · Windows 및 크로스플랫폼 개
 - Windows 이벤트 추적(ETW)을 이용해 게임 실행 중 파일을 읽는 순서와 위치를 기록합니다.
 - NTFS 데이터 재배치, 접근 순서 기반 미리 읽기(prefetch), RAM 프리워밍을 통해 이후 실행에서 데이터 접근 효율을 높이도록 설계했습니다.
 - 게임 자동 탐지, 백그라운드 동작, 안전장치와 [공유 읽기 순서 프로필](https://github.com/DO0OG/AsterCache-profiles)을 지원합니다.
+
+**문제와 접근 방식:** HDD에서 분산된 데이터 접근에 따른 탐색 부담을 줄이기 위해 ETW로 읽기 패턴을 수집하고, 제한적인 NTFS 재배치와 순서 기반 미리 읽기, RAM 프리워밍을 조합했습니다.
+
+**검증 범위:** 기록된 디스크 I/O 재생 실험이며, 실제 게임 전체 로딩 시간 단축이 입증된 것은 아닙니다. 재배치 시 디스크 쓰기가 발생하므로 사용 전 중요한 데이터를 백업해야 합니다. [실험 결과와 한계](https://github.com/DO0OG/AsterCache/blob/main/docs/RESULTS_SUMMARY.ko.md) · [안티치트 주의사항](https://github.com/DO0OG/AsterCache/blob/main/docs/ANTICHEAT.ko.md)
 
 [![AsterCache 최근 커밋](https://img.shields.io/github/last-commit/DO0OG/AsterCache?style=flat-square&label=updated)](https://github.com/DO0OG/AsterCache/commits/main)
 [![AsterCache 릴리스](https://img.shields.io/github/v/release/DO0OG/AsterCache?style=flat-square&label=release)](https://github.com/DO0OG/AsterCache/releases/latest)
@@ -65,6 +87,8 @@ C# / .NET · Python · Avalonia · PySide6 · Windows 및 크로스플랫폼 개
 
 ### [agk75-tool — AGK75 키보드 비공식 설정 도구](https://github.com/DO0OG/agk75-tool)
 
+<div align="center"><a href="https://github.com/DO0OG/agk75-tool"><img src="https://raw.githubusercontent.com/DO0OG/agk75-tool/main/docs/screenshots/keys_ko.png" width="680" alt="agk75-tool 프로그램의 실제 한국어 키 설정 화면" /></a></div>
+
 **Antgamer AGK75의 USB HID 통신 프로토콜을 분석해 개발한 비공식 데스크톱 설정 프로그램입니다.**
 
 `Python` `PySide6` `HID API` `Device Configuration`
@@ -72,6 +96,10 @@ C# / .NET · Python · Avalonia · PySide6 · Windows 및 크로스플랫폼 개
 - 키 재배치, Fn 레이어, 프로필, 조명, 래피드 트리거 및 폴링레이트 설정을 지원합니다.
 - 기기에서 설정값을 다시 읽어 적용 여부를 확인하며, 설정 백업·복원과 USB 폴링레이트 측정 기능을 제공합니다.
 - 한국어·영어·중국어 간체 UI를 제공하며, 프로그램 사용에 네트워크 연결이 필요하지 않습니다.
+
+**문제와 접근 방식:** 하드웨어 설정값을 안정적으로 변경할 수 있도록 AGK75의 USB HID 명령을 분석해 독립적으로 구현했습니다. 변경 후 기기에서 값을 다시 읽어 실제 적용 여부를 확인합니다.
+
+**확인 가능한 자료:** 실제 설정 화면과 [설정·폴링레이트 측정 기록](https://github.com/DO0OG/agk75-tool/blob/main/README.md). 측정 결과는 유선 연결로 시험한 조건에 한정되며 모든 환경에서의 동작을 보장하지 않습니다.
 
 [![AGK75 최근 커밋](https://img.shields.io/github/last-commit/DO0OG/agk75-tool?style=flat-square&label=updated)](https://github.com/DO0OG/agk75-tool/commits/main)
 [![AGK75 라이선스](https://img.shields.io/github/license/DO0OG/agk75-tool?style=flat-square)](https://github.com/DO0OG/agk75-tool/blob/main/LICENSE)
@@ -90,11 +118,15 @@ C# / .NET · Python · Avalonia · PySide6 · Windows 및 크로스플랫폼 개
 - 무결성을 검사하는 변경 파일 다운로드, 복구, 롤백, 모드·리소스팩 관리
 - 다중 서버 설정, Forge/Fabric/NeoForge/Quilt 지원, 업데이트 기능
 
+**기술적 구현:** Microsoft 인증, 무결성 검사 기반 변경 파일 다운로드, 파일 복구·롤백, 모드 로더 처리, 운영체제별 배포 흐름을 다룹니다. [운영자 가이드](https://github.com/DO0OG/CustomLaucncher/blob/main/docs/OPERATOR_GUIDE.ko.md) · [QA 검증 항목](https://github.com/DO0OG/CustomLaucncher/blob/main/docs/QA_MATRIX.ko.md)
+
 [![CustomLauncher 최근 커밋](https://img.shields.io/github/last-commit/DO0OG/CustomLaucncher?style=flat-square&label=updated)](https://github.com/DO0OG/CustomLaucncher/commits/main)
 
 <br/>
 
 ### [yttStudio — YouTube 자막 시각 편집기](https://github.com/DO0OG/yttStudio)
+
+<div align="center"><a href="https://github.com/DO0OG/yttStudio"><img src="https://raw.githubusercontent.com/DO0OG/yttStudio/main/docs/render-comparison/m2-canvas.png" width="680" alt="yttStudio의 실제 영상 미리보기와 자막 편집 화면" /></a></div>
 
 `C#`, `.NET 10`, `Avalonia` 기반의 크로스플랫폼 **YTT/SRV3 자막 WYSIWYG 편집기**입니다.
 
@@ -102,8 +134,28 @@ C# / .NET · Python · Avalonia · PySide6 · Windows 및 크로스플랫폼 개
 - 타임라인, 가라오케 타이밍, 다중 키프레임 애니메이션과 효과 지원
 - YouTube 자막 포맷의 제약 조건 검사 및 스타일 자막 내보내기
 
+**문제와 접근 방식:** 복잡한 YouTube 스타일 자막을 파일 내부 구조만으로 편집하기 어렵다는 문제를 영상 위 직접 편집, 타임라인, 가라오케 타이밍, 키프레임 효과로 해결하도록 설계했습니다.
+
+**확인 가능한 자료:** [사용자 가이드](https://github.com/DO0OG/yttStudio/blob/main/docs/USER_GUIDE.md) · [포맷 검증 기록](https://github.com/DO0OG/yttStudio/blob/main/docs/YTT-VERIFICATION.md). 편집 미리보기는 실제 YouTube 렌더링과 차이가 있을 수 있습니다.
+
 [![yttStudio 최근 커밋](https://img.shields.io/github/last-commit/DO0OG/yttStudio?style=flat-square&label=updated)](https://github.com/DO0OG/yttStudio/commits/main)
 [![yttStudio 릴리스](https://img.shields.io/github/v/release/DO0OG/yttStudio?style=flat-square&label=release)](https://github.com/DO0OG/yttStudio/releases/latest)
+
+---
+
+## 기술 구현 및 검증
+
+프로젝트별로 **어떤 문제를 해결하려 했고, 어떤 방식으로 구현했으며, 어디까지 검증했는지**를 확인할 수 있도록 정리했습니다.
+
+| 기술 분야 | 저장소에서 확인할 수 있는 내용 |
+| :--- | :--- |
+| AI 및 도구 기반 에이전트 | Ari의 음성 입출력, 로컬·원격 언어 모델, MCP·도구 연동, 작업 결과 확인 |
+| 운영체제 및 장치 I/O | AsterCache의 ETW·NTFS·Windows 파일 캐시 / agk75-tool의 USB HID와 설정값 재확인 |
+| 크로스플랫폼 데스크톱 | yttStudio·CustomLauncher의 C#/.NET·Avalonia / Ari·agk75-tool의 Python·PySide6 |
+| 안정성 및 복구 | AsterCache의 데이터 재배치 안전장치 / CustomLauncher의 무결성 검사·파일 복구·롤백 |
+| 테스트 및 문서 | 프로젝트별 테스트, CI, 릴리스 배포, 사용 가이드와 검증 한계 기록 |
+
+**검증 결과는 범위를 구분해 설명합니다.** 디스크 읽기 패턴을 재생한 실험 결과를 실제 게임 로딩 시간 개선으로 단정하지 않는 것처럼, 구현한 기능과 측정 결과, 추가 확인이 필요한 사항을 구분했습니다.
 
 ---
 
@@ -148,7 +200,10 @@ C# / .NET · Python · Avalonia · PySide6 · Windows 및 크로스플랫폼 개
 
 ---
 
-## GitHub 활동
+## 연락처 및 GitHub 활동
+
+프로젝트 문의 및 협업 연락: **[이메일](mailto:laleme@naver.com)** · [GitHub](https://github.com/DO0OG)
+
 
 <div align="center">
 

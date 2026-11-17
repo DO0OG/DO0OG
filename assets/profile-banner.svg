@@ -43,14 +43,14 @@
   <text x="74" y="155" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="1">DO0OG</text>
   <rect x="75" y="174" width="390" height="4" rx="2" fill="url(#accent)" filter="url(#glow)"/>
   <text x="76" y="214" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">AN JIHOON · SOFTWARE DEVELOPER</text>
-  <text x="77" y="252" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">AI AGENTS  /  DESKTOP SOFTWARE  /  INTERACTIVE SYSTEMS</text>
+  <text x="77" y="252" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">AI AGENTS  /  DESKTOP SOFTWARE  /  SYSTEMS & TOOLS</text>
 
   <g transform="translate(842 88)">
     <rect width="284" height="148" rx="18" fill="#0F172A" fill-opacity="0.72" stroke="#334155" stroke-opacity="0.72"/>
     <circle cx="34" cy="34" r="8" fill="#22D3EE"/>
-    <text x="54" y="40" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">currently building</text>
+    <text x="54" y="40" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">featured projects</text>
     <text x="28" y="81" fill="#60A5FA" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Ari</text>
-    <text x="28" y="110" fill="#A78BFA" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">yttStudio</text>
-    <text x="28" y="135" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="14">shipping useful software</text>
+    <text x="28" y="110" fill="#A78BFA" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">AsterCache</text>
+    <text x="28" y="135" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="14">AI · desktop · tools</text>
   </g>
 </svg>

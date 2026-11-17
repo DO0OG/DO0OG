@@ -17,17 +17,25 @@ C# / .NET · Python · Avalonia · PySide6 · Windows & cross-platform developme
 [![GitHub](https://img.shields.io/badge/GitHub-DO0OG-181717?style=flat-square&logo=github)](https://github.com/DO0OG)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:laleme@naver.com)
 
-[Recent projects](#recent-projects) · [More projects](#more-projects) · [Tech stack](#tech-stack) · [Background](#background)
+[Ari](#featured-project) · [Projects](#selected-projects) · [Engineering](#engineering-evidence) · [Tech stack](#tech-stack) · [Contact](#contact--activity)
 
 </div>
 
 ---
 
-## Recent Projects
+## Featured Project
 
-Recent public work, with a focus on Windows utilities, AI, and developer tooling.
+Ari is my main open-source project: an AI-powered Windows desktop assistant combining voice interaction with useful PC automation.
 
 ### [Ari — AI Voice Assistant & Autonomous Desktop Agent](https://github.com/DO0OG/Ari-VoiceCommand)
+
+<div align="center">
+<a href="https://github.com/DO0OG/Ari-VoiceCommand"><img src="https://raw.githubusercontent.com/DO0OG/Ari-VoiceCommand/main/docs/assets/ari-idle.gif" width="165" alt="Animated Ari desktop assistant character from the project" /></a>
+
+**Talk to your PC. Have an assistant help with everyday desktop tasks.**
+
+<sub>Project character animation, not a screen recording of a complete task.</sub>
+</div>
 
 **An open-source Windows voice assistant and desktop agent combining speech interaction, local or hosted language models, Windows automation, and tool-based workflows.**
 
@@ -41,11 +49,21 @@ Recent public work, with a focus on Windows utilities, AI, and developer tooling
 [![Ari release](https://img.shields.io/github/v/release/DO0OG/Ari-VoiceCommand?style=flat-square&label=release)](https://github.com/DO0OG/Ari-VoiceCommand/releases/latest)
 [![Ari stars](https://img.shields.io/github/stars/DO0OG/Ari-VoiceCommand?style=flat-square)](https://github.com/DO0OG/Ari-VoiceCommand/stargazers)
 
+**Engineering focus:** speech-to-command flow, multi-step tool use, configurable model providers, and extensible MCP/plugin integration. Local models are supported, but not every configuration runs entirely offline.
+
+**Deep dives:** [Agent workflow](https://github.com/DO0OG/Ari-VoiceCommand/blob/main/docs/AGENT_ADVANCED.md) · [Local decision engine](https://github.com/DO0OG/Ari-VoiceCommand/blob/main/docs/LOCAL_DECISION_ENGINE.md) · [Security](https://github.com/DO0OG/Ari-VoiceCommand/blob/main/docs/SECURITY.md)
+
 [Project homepage](https://ari-voice-command.vercel.app) · [Download latest release](https://github.com/DO0OG/Ari-VoiceCommand/releases/latest) · [Documentation](https://github.com/DO0OG/Ari-VoiceCommand#install)
 
 <br/>
 
+## Selected Projects
+
+Other public work, each with its problem, implementation approach, and available evidence.
+
 ### [AsterCache — HDD Game Loading Optimization](https://github.com/DO0OG/AsterCache)
+
+<div align="center"><a href="https://github.com/DO0OG/AsterCache"><img src="https://raw.githubusercontent.com/DO0OG/AsterCache/main/docs/images/main-window.en.png" width="680" alt="Actual AsterCache application main window in English" /></a></div>
 
 **An experimental Windows 11 utility designed to reduce HDD seek overhead during repeated game loads without moving entire games to an SSD.**
 
@@ -54,6 +72,10 @@ Recent public work, with a focus on Windows utilities, AI, and developer tooling
 - Records game file-read patterns using Windows Event Tracing (ETW).
 - Uses NTFS data relocation, access-order prefetching, and RAM prewarming to improve data locality on subsequent launches.
 - Includes background game discovery, automatic operation, safety checks, and [shared load-order profiles](https://github.com/DO0OG/AsterCache-profiles).
+
+**Problem → approach:** Scattered HDD reads can increase seek overhead. The tool records read patterns with ETW and uses guarded NTFS relocation, ordered prefetching, and RAM prewarming for later launches.
+
+**What has been verified:** recorded-I/O replay experiments, not an end-to-end reduction in actual game load time. Relocation writes to disk; back up important data before use. [Results and limitations](https://github.com/DO0OG/AsterCache/blob/main/docs/RESULTS_SUMMARY.md) · [Anti-cheat precautions](https://github.com/DO0OG/AsterCache/blob/main/docs/ANTICHEAT.md)
 
 [![AsterCache updated](https://img.shields.io/github/last-commit/DO0OG/AsterCache?style=flat-square&label=updated)](https://github.com/DO0OG/AsterCache/commits/main)
 [![AsterCache release](https://img.shields.io/github/v/release/DO0OG/AsterCache?style=flat-square&label=release)](https://github.com/DO0OG/AsterCache/releases/latest)
@@ -65,6 +87,8 @@ Recent public work, with a focus on Windows utilities, AI, and developer tooling
 
 ### [agk75-tool — Unofficial AGK75 Keyboard Configuration](https://github.com/DO0OG/agk75-tool)
 
+<div align="center"><a href="https://github.com/DO0OG/agk75-tool"><img src="https://raw.githubusercontent.com/DO0OG/agk75-tool/main/docs/screenshots/keys_en.png" width="680" alt="Actual agk75-tool keyboard configuration screen in English" /></a></div>
+
 **An unofficial desktop configuration utility for the Antgamer AGK75, developed by examining the keyboard's USB HID protocol.**
 
 `Python` `PySide6` `HID API` `Device Configuration`
@@ -72,6 +96,10 @@ Recent public work, with a focus on Windows utilities, AI, and developer tooling
 - Key remapping, Fn layers, profiles, lighting effects, rapid-trigger controls, and polling-rate configuration.
 - Device read-back verification, settings backup/restore, and USB polling-rate diagnostics.
 - Korean, English, and Simplified Chinese user interfaces; no network connection required for the app.
+
+**Problem → approach:** Changing hardware settings requires reliable device communication. This unofficial tool independently implements analyzed USB HID commands and checks results by reading values back from the keyboard.
+
+**Evidence:** interface screenshots and [documented configuration / timing measurements](https://github.com/DO0OG/agk75-tool/blob/main/README.en.md). The measurements describe tested wired-device behavior, not guaranteed results for every setup.
 
 [![AGK75 tool updated](https://img.shields.io/github/last-commit/DO0OG/agk75-tool?style=flat-square&label=updated)](https://github.com/DO0OG/agk75-tool/commits/main)
 [![AGK75 tool license](https://img.shields.io/github/license/DO0OG/agk75-tool?style=flat-square)](https://github.com/DO0OG/agk75-tool/blob/main/LICENSE)
@@ -90,11 +118,15 @@ A configurable Minecraft launcher and distribution client for **Windows, macOS, 
 - Integrity-checked incremental downloads, repair, rollback, and mod/resource-pack management.
 - Multiple server configurations, Forge/Fabric/NeoForge/Quilt support, and update workflows.
 
+**Engineering focus:** Microsoft authentication, integrity-checked incremental downloads, file repair and rollback, mod loaders, and cross-platform packaging. [Operator guide](https://github.com/DO0OG/CustomLaucncher/blob/main/docs/OPERATOR_GUIDE.ko.md) · [QA matrix](https://github.com/DO0OG/CustomLaucncher/blob/main/docs/QA_MATRIX.md)
+
 [![CustomLauncher updated](https://img.shields.io/github/last-commit/DO0OG/CustomLaucncher?style=flat-square&label=updated)](https://github.com/DO0OG/CustomLaucncher/commits/main)
 
 <br/>
 
 ### [yttStudio — Visual YouTube Subtitle Editor](https://github.com/DO0OG/yttStudio)
+
+<div align="center"><a href="https://github.com/DO0OG/yttStudio"><img src="https://raw.githubusercontent.com/DO0OG/yttStudio/main/docs/render-comparison/m2-canvas.png" width="680" alt="Actual yttStudio subtitle editing canvas and video preview" /></a></div>
 
 A cross-platform **WYSIWYG YTT/SRV3 subtitle editor** built with `C#`, `.NET 10`, and `Avalonia`.
 
@@ -102,8 +134,28 @@ A cross-platform **WYSIWYG YTT/SRV3 subtitle editor** built with `C#`, `.NET 10`
 - Work with timelines, karaoke timing, multi-keyframe animation, and subtitle effects.
 - Validate YouTube subtitle-format constraints and export styled subtitles.
 
+**Problem → approach:** Rich YouTube subtitle formats are difficult to edit directly. yttStudio provides a video-overlay editor with timeline, styling, karaoke timing, and keyframe effects.
+
+**Evidence:** [User guide](https://github.com/DO0OG/yttStudio/blob/main/docs/USER_GUIDE.md) · [Format-verification notes](https://github.com/DO0OG/yttStudio/blob/main/docs/YTT-VERIFICATION.md). The editing preview may differ from YouTube's final rendering.
+
 [![yttStudio updated](https://img.shields.io/github/last-commit/DO0OG/yttStudio?style=flat-square&label=updated)](https://github.com/DO0OG/yttStudio/commits/main)
 [![yttStudio release](https://img.shields.io/github/v/release/DO0OG/yttStudio?style=flat-square&label=release)](https://github.com/DO0OG/yttStudio/releases/latest)
+
+---
+
+## Engineering Evidence
+
+Projects are more useful as a portfolio when they show **the problem, the approach, and how the result was checked**.
+
+| Technical area | Evidence in the repositories |
+| :--- | :--- |
+| AI and tool-based agents | Ari integrates speech input/output, local or hosted language models, tools, MCP, and task result checking. |
+| Operating-system and device I/O | AsterCache works with ETW, NTFS, and the Windows file cache; agk75-tool uses USB HID and setting read-back. |
+| Cross-platform desktop software | yttStudio and CustomLauncher use C#/.NET with Avalonia; Ari and agk75-tool use Python/PySide6. |
+| Reliability and recovery | AsterCache documents relocation safeguards; CustomLauncher includes integrity checks, repair, and rollback. |
+| Testing and documentation | Project-specific tests, CI workflows, release packages, usage guides, and recorded validation limits. |
+
+**Limits matter:** a measured replay of disk reads is not the same as a measured improvement in real game loading. Features, benchmarks, and unverified hypotheses are kept separate in the linked documentation.
 
 ---
 
@@ -148,7 +200,10 @@ A cross-platform **WYSIWYG YTT/SRV3 subtitle editor** built with `C#`, `.NET 10`
 
 ---
 
-## GitHub Activity
+## Contact & Activity
+
+For project questions or collaboration: **[Email](mailto:laleme@naver.com)** · [GitHub](https://github.com/DO0OG)
+
 
 <div align="center">
 
