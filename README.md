@@ -1,82 +1,123 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" width="100%" alt="DO0OG profile banner" />
+<img src="./assets/profile-banner.svg" width="100%" alt="DO0OG — desktop software, AI, and developer tools" />
 
 <br/>
 
-**Building AI-powered desktop software, developer tools, and interactive systems.**
+**Building practical AI assistants, desktop applications, and tools that solve real problems.**
+
+C# / .NET · Python · Avalonia · PySide6 · Windows & cross-platform development
 
 [![GitHub](https://img.shields.io/badge/GitHub-DO0OG-181717?style=flat-square&logo=github)](https://github.com/DO0OG)
-[![Email](https://img.shields.io/badge/Email-laleme%40naver.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:laleme@naver.com)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:laleme@naver.com)
+
+[Recent projects](#recent-projects) · [More projects](#more-projects) · [Tech stack](#tech-stack) · [Background](#background)
 
 </div>
 
 ---
 
-## Selected Work
+## Recent Projects
 
-### [Ari — AI Voice Assistant](https://github.com/DO0OG/Ari-VoiceCommand)
+Recent public work, with a focus on Windows utilities, AI, and developer tooling.
 
-Open-source **Windows AI voice assistant and autonomous desktop agent** built around voice interaction, desktop automation, local AI, and extensibility.
+### [AsterCache — HDD Game Loading Optimization](https://github.com/DO0OG/AsterCache)
 
-`Python` `PySide6` `MCP` `Ollama` `STT/TTS` `Plugin System`
+**A Windows 11 utility exploring how to reduce repeated game-loading I/O on hard drives without requiring a full SSD migration.**
 
-- Wake word, multilingual speech recognition, and natural voice responses
-- Autonomous tool execution and desktop automation with verification
-- Local LLM workflows, MCP tools, plugins, skills, and remote-control integrations
+`C#` `.NET 10` `Windows` `NTFS` `ETW` `RAM Cache`
 
-[![Ari last commit](https://img.shields.io/github/last-commit/DO0OG/Ari-VoiceCommand?style=flat-square&label=updated)](https://github.com/DO0OG/Ari-VoiceCommand/commits/main)
+- Records game file-read patterns using Windows Event Tracing (ETW).
+- Uses NTFS data relocation, ordered prefetching, and RAM prewarming to improve read locality for later launches.
+- Includes background game discovery, automatic operation, safety checks, and [shared load-order profiles](https://github.com/DO0OG/AsterCache-profiles).
+
+[![AsterCache updated](https://img.shields.io/github/last-commit/DO0OG/AsterCache?style=flat-square&label=updated)](https://github.com/DO0OG/AsterCache/commits/main)
+[![AsterCache release](https://img.shields.io/github/v/release/DO0OG/AsterCache?style=flat-square&label=release)](https://github.com/DO0OG/AsterCache/releases/latest)
+[![AsterCache license](https://img.shields.io/github/license/DO0OG/AsterCache?style=flat-square)](https://github.com/DO0OG/AsterCache/blob/main/LICENSE)
+
+<sub>Experimental performance project. Recorded I/O replay results do not establish real-game loading-time gains. It physically relocates data, so backups and the project's compatibility notes matter.</sub>
+
+<br/>
+
+### [Ari — AI Voice Assistant & Autonomous Desktop Agent](https://github.com/DO0OG/Ari-VoiceCommand)
+
+**An open-source Windows AI assistant that combines voice interaction, local and hosted language models, desktop automation, and tool-using agent workflows.**
+
+`Python` `PySide6` `Ollama` `MCP` `STT/TTS` `AI Agent`
+
+- Wake-word activation, multilingual speech recognition, spoken replies, and an interactive desktop character.
+- Local LLM support, memory, plugins, `SKILL.md` skills, and Model Context Protocol (MCP) integrations.
+- Tool-driven desktop tasks with planning, execution, verification, and interruption controls.
+
+[![Ari updated](https://img.shields.io/github/last-commit/DO0OG/Ari-VoiceCommand?style=flat-square&label=updated)](https://github.com/DO0OG/Ari-VoiceCommand/commits/main)
+[![Ari release](https://img.shields.io/github/v/release/DO0OG/Ari-VoiceCommand?style=flat-square&label=release)](https://github.com/DO0OG/Ari-VoiceCommand/releases/latest)
 [![Ari stars](https://img.shields.io/github/stars/DO0OG/Ari-VoiceCommand?style=flat-square)](https://github.com/DO0OG/Ari-VoiceCommand/stargazers)
-[![Ari license](https://img.shields.io/github/license/DO0OG/Ari-VoiceCommand?style=flat-square)](https://github.com/DO0OG/Ari-VoiceCommand/blob/main/LICENSE)
+
+[Project homepage](https://ari-voice-command.vercel.app) · [Download latest release](https://github.com/DO0OG/Ari-VoiceCommand/releases/latest) · [Documentation](https://github.com/DO0OG/Ari-VoiceCommand#install)
 
 <br/>
 
-### [yttStudio — YTT/SRV3 Subtitle Editor](https://github.com/DO0OG/yttStudio)
+### [agk75-tool — Unofficial AGK75 Keyboard Configuration](https://github.com/DO0OG/agk75-tool)
 
-Cross-platform **WYSIWYG editor for advanced YouTube subtitles**, designed to edit positioning, styling, timing, effects, and keyframes directly over video.
+**A native desktop settings utility for the Antgamer AGK75 keyboard, built by analyzing its USB HID communication.**
 
-`C#` `.NET 10` `Avalonia` `libmpv` `Cross-platform`
+`Python` `PySide6` `HID API` `Device Configuration`
 
-- Direct-on-video subtitle placement and editing
-- Timeline, multi-keyframe motion, karaoke, visual effects, and format validation
-- Windows, macOS, and Linux releases with automated update support
+- Key remapping, Fn layers, profiles, lighting effects, rapid-trigger controls, and polling-rate configuration.
+- Device read-back verification, settings backup/restore, and USB polling-rate diagnostics.
+- Korean, English, and Simplified Chinese user interfaces; no network connection required for the app.
 
-[![yttStudio last commit](https://img.shields.io/github/last-commit/DO0OG/yttStudio?style=flat-square&label=updated)](https://github.com/DO0OG/yttStudio/commits/main)
-[![yttStudio license](https://img.shields.io/github/license/DO0OG/yttStudio?style=flat-square)](https://github.com/DO0OG/yttStudio/blob/main/LICENSE)
+[![AGK75 tool updated](https://img.shields.io/github/last-commit/DO0OG/agk75-tool?style=flat-square&label=updated)](https://github.com/DO0OG/agk75-tool/commits/main)
+[![AGK75 tool license](https://img.shields.io/github/license/DO0OG/agk75-tool?style=flat-square)](https://github.com/DO0OG/agk75-tool/blob/main/LICENSE)
 
-<br/>
-
-### [CustomLauncher — Cross-platform Minecraft Launcher](https://github.com/DO0OG/CustomLaucncher)
-
-A configurable **Minecraft server launcher and distribution client** for Windows, macOS, and Linux.
-
-`C#` `.NET 8` `Avalonia` `Microsoft/Xbox Auth` `GitHub Actions`
-
-- Microsoft account authentication and session management
-- Incremental content delivery with integrity checks, rollback, and mod/resource-pack management
-- Cross-platform packaging and automated build/test workflows
-
-[![CustomLauncher last commit](https://img.shields.io/github/last-commit/DO0OG/CustomLaucncher?style=flat-square&label=updated)](https://github.com/DO0OG/CustomLaucncher/commits/main)
+<sub>Unofficial project; not affiliated with Antgamer. Designed for a compatible AGK75 connected over USB.</sub>
 
 ---
 
-## Tech
+## More Projects
+
+### [CustomLauncher — Cross-platform Minecraft Launcher](https://github.com/DO0OG/CustomLaucncher)
+
+A configurable Minecraft launcher and distribution client for **Windows, macOS, and Linux**, built with `C#`, `.NET 8`, and `Avalonia`.
+
+- Microsoft/Xbox sign-in and account management.
+- Integrity-checked incremental downloads, repair, rollback, and mod/resource-pack management.
+- Multiple server configurations, Forge/Fabric/NeoForge/Quilt support, and update workflows.
+
+[![CustomLauncher updated](https://img.shields.io/github/last-commit/DO0OG/CustomLaucncher?style=flat-square&label=updated)](https://github.com/DO0OG/CustomLaucncher/commits/main)
+
+<br/>
+
+### [yttStudio — Visual YouTube Subtitle Editor](https://github.com/DO0OG/yttStudio)
+
+A cross-platform **WYSIWYG YTT/SRV3 subtitle editor** built with `C#`, `.NET 10`, and `Avalonia`.
+
+- Edit subtitle placement and styling directly on a video preview.
+- Work with timelines, karaoke timing, multi-keyframe animation, and subtitle effects.
+- Validate YouTube subtitle-format constraints and export styled subtitles.
+
+[![yttStudio updated](https://img.shields.io/github/last-commit/DO0OG/yttStudio?style=flat-square&label=updated)](https://github.com/DO0OG/yttStudio/commits/main)
+[![yttStudio release](https://img.shields.io/github/v/release/DO0OG/yttStudio?style=flat-square&label=release)](https://github.com/DO0OG/yttStudio/releases/latest)
+
+---
+
+## Tech Stack
 
 <div align="center">
 
-### Core
+**Languages**
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-### Desktop & Interactive
+**Desktop & Interactive Development**
 
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Avalonia](https://img.shields.io/badge/Avalonia-8B44AC?style=for-the-badge)
 ![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
 
-### Tooling & Systems
+**Tooling & Systems**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
@@ -85,14 +126,12 @@ A configurable **Minecraft server launcher and distribution client** for Windows
 
 </div>
 
----
+## Current Interests
 
-## Current Focus
-
-- **AI agents & local-first AI** — voice interfaces, tool use, MCP, local models, automation
-- **Cross-platform desktop engineering** — maintainable applications with .NET/Avalonia and Python/PySide6
-- **Shipping reliable software** — CI, packaging, update systems, distribution, testing, and recovery flows
-- **Interactive systems** — game development, UI tooling, and user-facing automation
+- **AI assistants and agent systems:** voice interfaces, local models, tool integrations, and practical automation.
+- **Desktop application engineering:** responsive native UIs, cross-platform apps, and maintainable architectures.
+- **Performance and systems:** measuring bottlenecks, improving disk I/O, and exploring efficient workflows.
+- **Software delivery:** automated tests, CI/CD, installers, releases, updates, and recovery paths.
 
 ---
 
@@ -103,12 +142,12 @@ A configurable **Minecraft server launcher and distribution client** for Windows
 
 ---
 
-## GitHub Stats
+## GitHub Activity
 
 <div align="center">
 
 <a href="https://github.com/stats-organization/github-stats-extended">
-  <img height="180" src="https://github-stats-extended.vercel.app/api?username=DO0OG&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true&rank_icon=github" alt="DO0OG GitHub stats" />
+  <img height="180" src="https://github-stats-extended.vercel.app/api?username=DO0OG&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true&rank_icon=github" alt="DO0OG GitHub activity statistics" />
 </a>
 
 </div>
