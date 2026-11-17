@@ -27,24 +27,6 @@ C# / .NET · Python · Avalonia · PySide6 · Windows 및 크로스플랫폼 개
 
 최근에 개발하거나 업데이트한 공개 프로젝트입니다. Windows 유틸리티, AI 응용 프로그램, 개발 도구를 중심으로 소개합니다.
 
-### [AsterCache — HDD 게임 로딩 최적화](https://github.com/DO0OG/AsterCache)
-
-**게임 전체를 SSD로 옮기지 않고, HDD에 설치된 게임을 반복 실행할 때 발생하는 디스크 탐색 부담을 줄이기 위해 개발 중인 Windows 11용 실험적 유틸리티입니다.**
-
-`C#` `.NET 10` `Windows` `NTFS` `ETW` `RAM Cache`
-
-- Windows 이벤트 추적(ETW)을 이용해 게임 실행 중 파일을 읽는 순서와 위치를 기록합니다.
-- NTFS 데이터 재배치, 접근 순서 기반 미리 읽기(prefetch), RAM 프리워밍을 통해 이후 실행에서 데이터 접근 효율을 높이도록 설계했습니다.
-- 게임 자동 탐지, 백그라운드 동작, 안전장치와 [공유 읽기 순서 프로필](https://github.com/DO0OG/AsterCache-profiles)을 지원합니다.
-
-[![AsterCache 최근 커밋](https://img.shields.io/github/last-commit/DO0OG/AsterCache?style=flat-square&label=updated)](https://github.com/DO0OG/AsterCache/commits/main)
-[![AsterCache 릴리스](https://img.shields.io/github/v/release/DO0OG/AsterCache?style=flat-square&label=release)](https://github.com/DO0OG/AsterCache/releases/latest)
-[![AsterCache 라이선스](https://img.shields.io/github/license/DO0OG/AsterCache?style=flat-square)](https://github.com/DO0OG/AsterCache/blob/main/LICENSE)
-
-<sub>실험 단계의 성능 개선 프로젝트입니다. 기록된 디스크 읽기 패턴을 재생한 측정값만으로 실제 게임의 로딩 시간 단축이 입증되는 것은 아닙니다. 데이터 재배치 과정에서 HDD에 쓰기가 발생하므로, 중요한 데이터는 백업하고 호환성 및 주의사항을 먼저 확인해야 합니다.</sub>
-
-<br/>
-
 ### [Ari — AI 음성 비서 및 자율 데스크톱 에이전트](https://github.com/DO0OG/Ari-VoiceCommand)
 
 **음성 상호작용, 로컬·원격 언어 모델, Windows 자동화와 도구 기반 작업 처리를 결합한 오픈소스 Windows 음성 비서입니다.**
@@ -60,6 +42,24 @@ C# / .NET · Python · Avalonia · PySide6 · Windows 및 크로스플랫폼 개
 [![Ari 스타](https://img.shields.io/github/stars/DO0OG/Ari-VoiceCommand?style=flat-square)](https://github.com/DO0OG/Ari-VoiceCommand/stargazers)
 
 [프로젝트 홈페이지](https://ari-voice-command.vercel.app) · [최신 릴리스 다운로드](https://github.com/DO0OG/Ari-VoiceCommand/releases/latest) · [사용 및 설치 안내](https://github.com/DO0OG/Ari-VoiceCommand#install)
+
+<br/>
+
+### [AsterCache — HDD 게임 로딩 최적화](https://github.com/DO0OG/AsterCache)
+
+**게임 전체를 SSD로 옮기지 않고, HDD에 설치된 게임을 반복 실행할 때 발생하는 디스크 탐색 부담을 줄이기 위해 개발 중인 Windows 11용 실험적 유틸리티입니다.**
+
+`C#` `.NET 10` `Windows` `NTFS` `ETW` `RAM Cache`
+
+- Windows 이벤트 추적(ETW)을 이용해 게임 실행 중 파일을 읽는 순서와 위치를 기록합니다.
+- NTFS 데이터 재배치, 접근 순서 기반 미리 읽기(prefetch), RAM 프리워밍을 통해 이후 실행에서 데이터 접근 효율을 높이도록 설계했습니다.
+- 게임 자동 탐지, 백그라운드 동작, 안전장치와 [공유 읽기 순서 프로필](https://github.com/DO0OG/AsterCache-profiles)을 지원합니다.
+
+[![AsterCache 최근 커밋](https://img.shields.io/github/last-commit/DO0OG/AsterCache?style=flat-square&label=updated)](https://github.com/DO0OG/AsterCache/commits/main)
+[![AsterCache 릴리스](https://img.shields.io/github/v/release/DO0OG/AsterCache?style=flat-square&label=release)](https://github.com/DO0OG/AsterCache/releases/latest)
+[![AsterCache 라이선스](https://img.shields.io/github/license/DO0OG/AsterCache?style=flat-square)](https://github.com/DO0OG/AsterCache/blob/main/LICENSE)
+
+<sub>실험 단계의 성능 개선 프로젝트입니다. 기록된 디스크 읽기 패턴을 재생한 측정값만으로 실제 게임의 로딩 시간 단축이 입증되는 것은 아닙니다. 데이터 재배치 과정에서 HDD에 쓰기가 발생하므로, 중요한 데이터는 백업하고 호환성 및 주의사항을 먼저 확인해야 합니다.</sub>
 
 <br/>
 

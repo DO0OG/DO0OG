@@ -27,24 +27,6 @@ C# / .NET · Python · Avalonia · PySide6 · Windows & cross-platform developme
 
 Recent public work, with a focus on Windows utilities, AI, and developer tooling.
 
-### [AsterCache — HDD Game Loading Optimization](https://github.com/DO0OG/AsterCache)
-
-**An experimental Windows 11 utility designed to reduce HDD seek overhead during repeated game loads without moving entire games to an SSD.**
-
-`C#` `.NET 10` `Windows` `NTFS` `ETW` `RAM Cache`
-
-- Records game file-read patterns using Windows Event Tracing (ETW).
-- Uses NTFS data relocation, access-order prefetching, and RAM prewarming to improve data locality on subsequent launches.
-- Includes background game discovery, automatic operation, safety checks, and [shared load-order profiles](https://github.com/DO0OG/AsterCache-profiles).
-
-[![AsterCache updated](https://img.shields.io/github/last-commit/DO0OG/AsterCache?style=flat-square&label=updated)](https://github.com/DO0OG/AsterCache/commits/main)
-[![AsterCache release](https://img.shields.io/github/v/release/DO0OG/AsterCache?style=flat-square&label=release)](https://github.com/DO0OG/AsterCache/releases/latest)
-[![AsterCache license](https://img.shields.io/github/license/DO0OG/AsterCache?style=flat-square)](https://github.com/DO0OG/AsterCache/blob/main/LICENSE)
-
-<sub>Experimental: recorded I/O replay results are not proof of faster real-game loading. Data relocation writes to the HDD; read the compatibility notes and back up important data first.</sub>
-
-<br/>
-
 ### [Ari — AI Voice Assistant & Autonomous Desktop Agent](https://github.com/DO0OG/Ari-VoiceCommand)
 
 **An open-source Windows voice assistant and desktop agent combining speech interaction, local or hosted language models, Windows automation, and tool-based workflows.**
@@ -60,6 +42,24 @@ Recent public work, with a focus on Windows utilities, AI, and developer tooling
 [![Ari stars](https://img.shields.io/github/stars/DO0OG/Ari-VoiceCommand?style=flat-square)](https://github.com/DO0OG/Ari-VoiceCommand/stargazers)
 
 [Project homepage](https://ari-voice-command.vercel.app) · [Download latest release](https://github.com/DO0OG/Ari-VoiceCommand/releases/latest) · [Documentation](https://github.com/DO0OG/Ari-VoiceCommand#install)
+
+<br/>
+
+### [AsterCache — HDD Game Loading Optimization](https://github.com/DO0OG/AsterCache)
+
+**An experimental Windows 11 utility designed to reduce HDD seek overhead during repeated game loads without moving entire games to an SSD.**
+
+`C#` `.NET 10` `Windows` `NTFS` `ETW` `RAM Cache`
+
+- Records game file-read patterns using Windows Event Tracing (ETW).
+- Uses NTFS data relocation, access-order prefetching, and RAM prewarming to improve data locality on subsequent launches.
+- Includes background game discovery, automatic operation, safety checks, and [shared load-order profiles](https://github.com/DO0OG/AsterCache-profiles).
+
+[![AsterCache updated](https://img.shields.io/github/last-commit/DO0OG/AsterCache?style=flat-square&label=updated)](https://github.com/DO0OG/AsterCache/commits/main)
+[![AsterCache release](https://img.shields.io/github/v/release/DO0OG/AsterCache?style=flat-square&label=release)](https://github.com/DO0OG/AsterCache/releases/latest)
+[![AsterCache license](https://img.shields.io/github/license/DO0OG/AsterCache?style=flat-square)](https://github.com/DO0OG/AsterCache/blob/main/LICENSE)
+
+<sub>Experimental: recorded I/O replay results are not proof of faster real-game loading. Data relocation writes to the HDD; read the compatibility notes and back up important data first.</sub>
 
 <br/>
 
