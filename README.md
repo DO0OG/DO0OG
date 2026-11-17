@@ -6,6 +6,10 @@
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/DO0OG/DO0OG/main/assets/profile-banner.svg" width="100%" alt="DO0OG — software development, AI assistants, and desktop utilities" />
+
+<br/>
+
 
 **I build desktop applications, AI assistants, and developer tools, with a focus on practical use and careful validation.**
 

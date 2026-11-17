@@ -6,6 +6,10 @@
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/DO0OG/DO0OG/main/assets/profile-banner.svg" width="100%" alt="DO0OG 개발자 프로필 — AI 음성 비서, 데스크톱 소프트웨어, 시스템 유틸리티" />
+
+<br/>
+
 
 **실제로 사용할 수 있는 데스크톱 애플리케이션과 AI 비서, 개발 도구를 만들고 검증합니다.**
 
