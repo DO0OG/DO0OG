@@ -29,13 +29,7 @@ Ari는 음성 상호작용과 PC 자동화를 결합한 Windows용 AI 데스크�
 
 ### [Ari — AI 음성 비서 및 자율 데스크톱 에이전트](https://github.com/DO0OG/Ari-VoiceCommand)
 
-<div align="center">
-<a href="https://github.com/DO0OG/Ari-VoiceCommand"><img src="https://raw.githubusercontent.com/DO0OG/Ari-VoiceCommand/main/docs/assets/ari-idle.gif" width="165" alt="Ari 프로젝트의 데스크톱 캐릭터 애니메이션" /></a>
-
 **음성으로 PC와 대화하고 일상적인 작업을 처리하도록 만든 AI 비서입니다.**
-
-<sub>위 이미지는 캐릭터 애니메이션이며, 실제 작업 수행 과정을 촬영한 영상은 아닙니다.</sub>
-</div>
 
 **음성 상호작용, 로컬·원격 언어 모델, Windows 자동화와 도구 기반 작업 처리를 결합한 오픈소스 Windows 음성 비서입니다.**
 
@@ -63,8 +57,6 @@ Ari는 음성 상호작용과 PC 자동화를 결합한 Windows용 AI 데스크�
 
 ### [AsterCache — HDD 게임 로딩 최적화](https://github.com/DO0OG/AsterCache)
 
-<div align="center"><a href="https://github.com/DO0OG/AsterCache"><img src="https://raw.githubusercontent.com/DO0OG/AsterCache/main/docs/images/main-window.png" width="680" alt="AsterCache 프로그램의 실제 한국어 메인 화면" /></a></div>
-
 **게임 전체를 SSD로 옮기지 않고, HDD에 설치된 게임을 반복 실행할 때 발생하는 디스크 탐색 부담을 줄이기 위해 개발 중인 Windows 11용 실험적 유틸리티입니다.**
 
 `C#` `.NET 10` `Windows` `NTFS` `ETW` `RAM Cache`
@@ -86,8 +78,6 @@ Ari는 음성 상호작용과 PC 자동화를 결합한 Windows용 AI 데스크�
 <br/>
 
 ### [agk75-tool — AGK75 키보드 비공식 설정 도구](https://github.com/DO0OG/agk75-tool)
-
-<div align="center"><a href="https://github.com/DO0OG/agk75-tool"><img src="https://raw.githubusercontent.com/DO0OG/agk75-tool/main/docs/screenshots/keys_ko.png" width="680" alt="agk75-tool 프로그램의 실제 한국어 키 설정 화면" /></a></div>
 
 **Antgamer AGK75의 USB HID 통신 프로토콜을 분석해 개발한 비공식 데스크톱 설정 프로그램입니다.**
 
@@ -125,8 +115,6 @@ Ari는 음성 상호작용과 PC 자동화를 결합한 Windows용 AI 데스크�
 <br/>
 
 ### [yttStudio — YouTube 자막 시각 편집기](https://github.com/DO0OG/yttStudio)
-
-<div align="center"><a href="https://github.com/DO0OG/yttStudio"><img src="https://raw.githubusercontent.com/DO0OG/yttStudio/main/docs/render-comparison/m2-canvas.png" width="680" alt="yttStudio의 실제 영상 미리보기와 자막 편집 화면" /></a></div>
 
 `C#`, `.NET 10`, `Avalonia` 기반의 크로스플랫폼 **YTT/SRV3 자막 WYSIWYG 편집기**입니다.
 

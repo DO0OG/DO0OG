@@ -29,13 +29,7 @@ Ari is my main open-source project: an AI-powered Windows desktop assistant comb
 
 ### [Ari — AI Voice Assistant & Autonomous Desktop Agent](https://github.com/DO0OG/Ari-VoiceCommand)
 
-<div align="center">
-<a href="https://github.com/DO0OG/Ari-VoiceCommand"><img src="https://raw.githubusercontent.com/DO0OG/Ari-VoiceCommand/main/docs/assets/ari-idle.gif" width="165" alt="Animated Ari desktop assistant character from the project" /></a>
-
 **Talk to your PC. Have an assistant help with everyday desktop tasks.**
-
-<sub>Project character animation, not a screen recording of a complete task.</sub>
-</div>
 
 **An open-source Windows voice assistant and desktop agent combining speech interaction, local or hosted language models, Windows automation, and tool-based workflows.**
 
@@ -63,8 +57,6 @@ Other public work, each with its problem, implementation approach, and available
 
 ### [AsterCache — HDD Game Loading Optimization](https://github.com/DO0OG/AsterCache)
 
-<div align="center"><a href="https://github.com/DO0OG/AsterCache"><img src="https://raw.githubusercontent.com/DO0OG/AsterCache/main/docs/images/main-window.en.png" width="680" alt="Actual AsterCache application main window in English" /></a></div>
-
 **An experimental Windows 11 utility designed to reduce HDD seek overhead during repeated game loads without moving entire games to an SSD.**
 
 `C#` `.NET 10` `Windows` `NTFS` `ETW` `RAM Cache`
@@ -86,8 +78,6 @@ Other public work, each with its problem, implementation approach, and available
 <br/>
 
 ### [agk75-tool — Unofficial AGK75 Keyboard Configuration](https://github.com/DO0OG/agk75-tool)
-
-<div align="center"><a href="https://github.com/DO0OG/agk75-tool"><img src="https://raw.githubusercontent.com/DO0OG/agk75-tool/main/docs/screenshots/keys_en.png" width="680" alt="Actual agk75-tool keyboard configuration screen in English" /></a></div>
 
 **An unofficial desktop configuration utility for the Antgamer AGK75, developed by examining the keyboard's USB HID protocol.**
 
@@ -125,8 +115,6 @@ A configurable Minecraft launcher and distribution client for **Windows, macOS, 
 <br/>
 
 ### [yttStudio — Visual YouTube Subtitle Editor](https://github.com/DO0OG/yttStudio)
-
-<div align="center"><a href="https://github.com/DO0OG/yttStudio"><img src="https://raw.githubusercontent.com/DO0OG/yttStudio/main/docs/render-comparison/m2-canvas.png" width="680" alt="Actual yttStudio subtitle editing canvas and video preview" /></a></div>
 
 A cross-platform **WYSIWYG YTT/SRV3 subtitle editor** built with `C#`, `.NET 10`, and `Avalonia`.
 
