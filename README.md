@@ -1,10 +1,16 @@
+<div align="right">
+
+**English** · [한국어](./README.ko.md)
+
+</div>
+
 <div align="center">
 
 <img src="./assets/profile-banner.svg" width="100%" alt="DO0OG — desktop software, AI, and developer tools" />
 
 <br/>
 
-**Building practical AI assistants, desktop applications, and tools that solve real problems.**
+**I build desktop applications, AI assistants, and developer tools, with a focus on practical use and careful validation.**
 
 C# / .NET · Python · Avalonia · PySide6 · Windows & cross-platform development
 
@@ -23,25 +29,25 @@ Recent public work, with a focus on Windows utilities, AI, and developer tooling
 
 ### [AsterCache — HDD Game Loading Optimization](https://github.com/DO0OG/AsterCache)
 
-**A Windows 11 utility exploring how to reduce repeated game-loading I/O on hard drives without requiring a full SSD migration.**
+**An experimental Windows 11 utility designed to reduce HDD seek overhead during repeated game loads without moving entire games to an SSD.**
 
 `C#` `.NET 10` `Windows` `NTFS` `ETW` `RAM Cache`
 
 - Records game file-read patterns using Windows Event Tracing (ETW).
-- Uses NTFS data relocation, ordered prefetching, and RAM prewarming to improve read locality for later launches.
+- Uses NTFS data relocation, access-order prefetching, and RAM prewarming to improve data locality on subsequent launches.
 - Includes background game discovery, automatic operation, safety checks, and [shared load-order profiles](https://github.com/DO0OG/AsterCache-profiles).
 
 [![AsterCache updated](https://img.shields.io/github/last-commit/DO0OG/AsterCache?style=flat-square&label=updated)](https://github.com/DO0OG/AsterCache/commits/main)
 [![AsterCache release](https://img.shields.io/github/v/release/DO0OG/AsterCache?style=flat-square&label=release)](https://github.com/DO0OG/AsterCache/releases/latest)
 [![AsterCache license](https://img.shields.io/github/license/DO0OG/AsterCache?style=flat-square)](https://github.com/DO0OG/AsterCache/blob/main/LICENSE)
 
-<sub>Experimental performance project. Recorded I/O replay results do not establish real-game loading-time gains. It physically relocates data, so backups and the project's compatibility notes matter.</sub>
+<sub>Experimental: recorded I/O replay results are not proof of faster real-game loading. Data relocation writes to the HDD; read the compatibility notes and back up important data first.</sub>
 
 <br/>
 
 ### [Ari — AI Voice Assistant & Autonomous Desktop Agent](https://github.com/DO0OG/Ari-VoiceCommand)
 
-**An open-source Windows AI assistant that combines voice interaction, local and hosted language models, desktop automation, and tool-using agent workflows.**
+**An open-source Windows voice assistant and desktop agent combining speech interaction, local or hosted language models, Windows automation, and tool-based workflows.**
 
 `Python` `PySide6` `Ollama` `MCP` `STT/TTS` `AI Agent`
 
@@ -59,7 +65,7 @@ Recent public work, with a focus on Windows utilities, AI, and developer tooling
 
 ### [agk75-tool — Unofficial AGK75 Keyboard Configuration](https://github.com/DO0OG/agk75-tool)
 
-**A native desktop settings utility for the Antgamer AGK75 keyboard, built by analyzing its USB HID communication.**
+**An unofficial desktop configuration utility for the Antgamer AGK75, developed by examining the keyboard's USB HID protocol.**
 
 `Python` `PySide6` `HID API` `Device Configuration`
 
@@ -128,7 +134,7 @@ A cross-platform **WYSIWYG YTT/SRV3 subtitle editor** built with `C#`, `.NET 10`
 
 ## Current Interests
 
-- **AI assistants and agent systems:** voice interfaces, local models, tool integrations, and practical automation.
+- **AI assistants and agent workflows:** speech interfaces, local models, tool integrations, and desktop automation.
 - **Desktop application engineering:** responsive native UIs, cross-platform apps, and maintainable architectures.
 - **Performance and systems:** measuring bottlenecks, improving disk I/O, and exploring efficient workflows.
 - **Software delivery:** automated tests, CI/CD, installers, releases, updates, and recovery paths.
